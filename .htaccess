@@ -1,0 +1,9 @@
+# Насторойки сервера Apach
+Options Indexes FollowSymLinks
+DirectoryIndex index.php
+
+# локальные настройки PHP.ini
+php_flag asp_tags on
+
+# короткие теги <? ?>
+php_flag short_open_tag of
